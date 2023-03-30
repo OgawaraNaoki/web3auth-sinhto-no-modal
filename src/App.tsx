@@ -19,6 +19,8 @@ function App() {
   const [provider, setProvider] = useState<SafeEventEmitterProvider | null>(
     null
   );
+  const search = useLocation().search;
+  const query = queryString.parse(search);
   
   console.log(process.env.REACT_APP_CLIENT_ID!);
   
@@ -58,9 +60,6 @@ function App() {
         console.error(error);
       }
     };
-
-    const search = useLocation().search;
-    const query = queryString.parse(search);
 
     const login = async () => {
       if (!web3auth) {
