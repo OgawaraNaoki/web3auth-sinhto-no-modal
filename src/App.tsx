@@ -10,15 +10,16 @@ import "./App.css";
 // import RPC from './ethersRPC' // for using ethers.js
 import RPC from "./web3RPC"; // for using web3.js
 
-const clientId =
-  "BNHVCnOt86MItur63vmz-RZrjY2lDhoL1vaPjIb6jCu2jpVHxms9aeFSaf4i5YGQywxpRiOl321IfY0UGy0bxdM"; // get from https://dashboard.web3auth.io
+const clientId = process.env.REACT_APP_CLIENT_ID!
 
 function App() {
   const [web3auth, setWeb3auth] = useState<Web3AuthNoModal | null>(null);
   const [provider, setProvider] = useState<SafeEventEmitterProvider | null>(
     null
   );
-
+  
+  console.log(process.env.REACT_APP_CLIENT_ID!);
+  
   useEffect(() => {
     const init = async () => {
       try {
