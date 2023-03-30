@@ -70,7 +70,7 @@ function App() {
       {
         loginProvider: "jwt",
         extraLoginOptions: {
-          domain: "https://shahbaz-torus.us.auth0.com",
+          domain: "https://hirosekakeru.github.io/",
           verifierIdField: "sub",
           // connection: "google-oauth2", // Use this to skip Auth0 Modal for Google login.
         },
