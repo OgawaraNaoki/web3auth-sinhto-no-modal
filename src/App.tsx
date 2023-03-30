@@ -35,12 +35,12 @@ function App() {
 
         const openloginAdapter = new OpenloginAdapter({
           adapterSettings: {
+            clientId,
             uxMode: "popup",
             loginConfig: {
               jwt: {
-                verifier: "web3auth-auth0-demo",
+                verifier: "custom-sinhto-testnet",
                 typeOfLogin: "jwt",
-                clientId: "294QRkchfq2YaXUbPri7D6PH7xzHgQMT",
               },
             },
           },
@@ -70,7 +70,7 @@ function App() {
       {
         loginProvider: "jwt",
         extraLoginOptions: {
-          domain: "https://hirosekakeru.github.io/",
+          domain: "https://shahbaz-torus.us.auth0.com",
           verifierIdField: "sub",
           // connection: "google-oauth2", // Use this to skip Auth0 Modal for Google login.
         },
