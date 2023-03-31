@@ -9,18 +9,14 @@ import { OpenloginAdapter } from "@web3auth/openlogin-adapter";
 import "./App.css";
 // import RPC from './ethersRPC' // for using ethers.js
 import RPC from "./web3RPC"; // for using web3.js
-import { useLocation } from 'react-router-dom';
-import queryString from 'query-string';
 
 const clientId = process.env.REACT_APP_CLIENT_ID!
 
-function App() {
+export const App = ()  => {
   const [web3auth, setWeb3auth] = useState<Web3AuthNoModal | null>(null);
   const [provider, setProvider] = useState<SafeEventEmitterProvider | null>(
     null
   );
-  const search = useLocation().search;
-  const query = queryString.parse(search);
   
   console.log(process.env.REACT_APP_CLIENT_ID!);
   
@@ -61,28 +57,7 @@ function App() {
       }
     };
 
-    const login = async () => {
-      if (!web3auth) {
-        uiConsole("web3auth not initialized yet");
-        return;
-      }
-      const web3authProvider = await web3auth.connectTo(
-        WALLET_ADAPTERS.OPENLOGIN,
-        {
-          loginProvider: "jwt",
-          extraLoginOptions: {
-            domain: "https://shahbaz-torus.us.auth0.com",
-            verifierIdField: "sub",
-            id_token: query['token'],
-            // connection: "google-oauth2", // Use this to skip Auth0 Modal for Google login.
-          },
-        }
-      );
-      setProvider(web3authProvider);
-    };
-
     init();
-    login();
   }, []);
 
   const login = async () => {
