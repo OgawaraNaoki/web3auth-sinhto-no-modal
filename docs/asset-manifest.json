@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/web3auth-sinhto-no-modal/static/css/main.cf98671f.css",
-    "main.js": "/web3auth-sinhto-no-modal/static/js/main.4a9a6b50.js",
-    "static/js/992.9d502f15.chunk.js": "/web3auth-sinhto-no-modal/static/js/992.9d502f15.chunk.js",
-    "static/js/995.ded2850c.chunk.js": "/web3auth-sinhto-no-modal/static/js/995.ded2850c.chunk.js",
-    "static/js/950.0479dd43.chunk.js": "/web3auth-sinhto-no-modal/static/js/950.0479dd43.chunk.js",
-    "static/js/32.8e02c327.chunk.js": "/web3auth-sinhto-no-modal/static/js/32.8e02c327.chunk.js",
-    "static/js/130.7e77f630.chunk.js": "/web3auth-sinhto-no-modal/static/js/130.7e77f630.chunk.js",
-    "static/js/385.78299dea.chunk.js": "/web3auth-sinhto-no-modal/static/js/385.78299dea.chunk.js",
-    "static/js/481.cf5a4ce9.chunk.js": "/web3auth-sinhto-no-modal/static/js/481.cf5a4ce9.chunk.js",
+    "main.js": "/web3auth-sinhto-no-modal/static/js/main.61fbe2c7.js",
+    "static/js/992.700a6cd3.chunk.js": "/web3auth-sinhto-no-modal/static/js/992.700a6cd3.chunk.js",
+    "static/js/995.38e10958.chunk.js": "/web3auth-sinhto-no-modal/static/js/995.38e10958.chunk.js",
+    "static/js/950.5d502419.chunk.js": "/web3auth-sinhto-no-modal/static/js/950.5d502419.chunk.js",
+    "static/js/32.d78ef6f6.chunk.js": "/web3auth-sinhto-no-modal/static/js/32.d78ef6f6.chunk.js",
+    "static/js/130.470993c9.chunk.js": "/web3auth-sinhto-no-modal/static/js/130.470993c9.chunk.js",
+    "static/js/385.7588a2c1.chunk.js": "/web3auth-sinhto-no-modal/static/js/385.7588a2c1.chunk.js",
+    "static/js/481.5b6dc8bd.chunk.js": "/web3auth-sinhto-no-modal/static/js/481.5b6dc8bd.chunk.js",
     "index.html": "/web3auth-sinhto-no-modal/index.html",
     "main.cf98671f.css.map": "/web3auth-sinhto-no-modal/static/css/main.cf98671f.css.map",
-    "main.4a9a6b50.js.map": "/web3auth-sinhto-no-modal/static/js/main.4a9a6b50.js.map",
-    "950.0479dd43.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/950.0479dd43.chunk.js.map",
-    "32.8e02c327.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/32.8e02c327.chunk.js.map",
-    "130.7e77f630.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/130.7e77f630.chunk.js.map",
-    "385.78299dea.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/385.78299dea.chunk.js.map",
-    "481.cf5a4ce9.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/481.cf5a4ce9.chunk.js.map"
+    "main.61fbe2c7.js.map": "/web3auth-sinhto-no-modal/static/js/main.61fbe2c7.js.map",
+    "950.5d502419.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/950.5d502419.chunk.js.map",
+    "32.d78ef6f6.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/32.d78ef6f6.chunk.js.map",
+    "130.470993c9.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/130.470993c9.chunk.js.map",
+    "385.7588a2c1.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/385.7588a2c1.chunk.js.map",
+    "481.5b6dc8bd.chunk.js.map": "/web3auth-sinhto-no-modal/static/js/481.5b6dc8bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf98671f.css",
-    "static/js/main.4a9a6b50.js"
+    "static/js/main.61fbe2c7.js"
   ]
 }

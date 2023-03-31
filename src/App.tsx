@@ -27,9 +27,9 @@ export const App = ()  => {
           clientId,
           chainConfig: {
             chainNamespace: CHAIN_NAMESPACES.EIP155,
-            chainId: "0x5",
+            chainId: "0x137",
           },
-          web3AuthNetwork: "cyan",
+          web3AuthNetwork: "testnet",
           useCoreKitKey: false,
         });
 
