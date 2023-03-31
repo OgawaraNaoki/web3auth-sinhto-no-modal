@@ -12,10 +12,10 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/web3auth-sinhto-no-modal" element={<App />} />
-      <Route path="/web3auth-sinhto-no-modal/callback" element={<Callback />} />
+  <BrowserRouter basename='web3auth-sinhto-no-modal'>
+    <Routes >
+      <Route path="/" element={<App />} />
+      <Route path="/callback" element={<Callback />} />
     </Routes>
   </BrowserRouter>
 );
